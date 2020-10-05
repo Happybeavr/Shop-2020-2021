@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+}
+li #time {
+  color: antiquewhite;
+  display: block;
+  text-align: center;
+  padding: 40px 50px 30px 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 50px 30px 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+li a:hover {
+  background-color: #333;
+}
+footer {
+  background-color: black;
+  font-size: 25px;
+  color: antiquewhite;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+.title {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 300px 0px 50px;
+  text-decoration: none;
+  font-size: 45px;
+}
+div .offitem {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.offimg {
+  width: 700px;
+  height: 350px;
+}
+div .feat {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+}
+.catalog {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  float: left;
+  width: 49%;
+}
+#prices{
+	text-align: center;
+	font-size:inherit;
+	margin-right: auto;
+	margin-left:auto;
+	margin-bottom: 1em;
+}
+td, th{
+	width:100px;
+	height:1.2em;
+	border: solid;
+	padding: 1px 3px 1px 3px;
+}
+.priceTable {
+  background-color: lightsalmon;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  float: left;
+  width: 49%;
+}
+.cataImg {
+  height: 225px;
+  width: auto;
+  margin-top: 6px;
+}
+.featimg {
+  width: 800px;
+  height: 743px;
+  padding-bottom: 0;
+}
+.logo {
+  padding-left: 20px;
+  width: 100px;
+  height: 100px;
+}
+.column {
+  float: left;
+  width: 49%;
+  padding: 15px 0px 0px 15px;
+}
+#fullCol {
+  float: left;
+  width: 100%;
+  padding: 15px 0px 0px 15px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+#formWrapper {
+  text-align: center;
+  width: 100%;
+  background-color: darkslategray;
+  display: block;
+}
+#contactForm {
+  width: 33%;
+  display: inline-block;
+}
+#submitBtn {
+  margin-bottom: 1rem;
+  font-size: 20px;
+  padding: 3px;
+}
+#pageForm {
+  margin-top: 1rem;
+  font-size: 24px;
+  color: antiquewhite;
+}
+#fullName {
+  font-size: 22px;
+  width: 100%;
+}
+#email {
+  font-size: 22px;
+  width: 100%;
+}
+#want {
+  font-size: 36px;
+  color: antiquewhite;
+}
+#message {
+  font-size: 16px;
+  width: 100%;
+}
+.inputLabel {
+  float: left;
+}
